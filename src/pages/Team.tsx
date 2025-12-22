@@ -26,6 +26,11 @@ const Team = () => {
       image: "/nimit.png",
     },
     {
+    name: "Vedant",
+      bio: "Hello! My name is Vedant Kansara and I’m a senior at Farmington High School. I’m passionate about economics, finance and biotech and aspire to be an entrepreneur in the future. In my free time, I enjoy playing tennis and spending time with my friends.",
+      image: "/vedant.png",
+    },
+    {
       name: "Rohan",
       bio: "As the Connecticut Branch Manager for Finance in Advance, I lead statewide outreach efforts to promote financial literacy among students and communities. I am deeply passionate about finance, especially personal finance education, and am committed to empowering others with the knowledge and tools needed to make informed financial decisions. I strive to expand access to essential financial skills by coordinating events, building connections with schools and libraries, and organizing impactful workshops. Looking ahead, I aspire to pursue a career in the financial industry, with a strong interest in wealth management and financial advisory.",
       image: "/rohan.png",
@@ -34,13 +39,8 @@ const Team = () => {
       name: "Abdullah Ajimal",
       bio: "Hi, My name is Abdullah. I am currently a senior at Farmington High school, I have a passion for physics, computer science, and economics. In the future I strive to work in the finance field as an investment banker or financial analyst. I enjoy cooking, volunteering for kids and traveling with friends.",
       image: "/abdullah.png",
-    },
-    {
-      name: "Vedant",
-      bio: "I'm Vedant, a passionate student leader focused on expanding financial literacy education. I enjoy exploring innovative approaches to teaching complex financial concepts and building meaningful connections within our community. When I'm not working on Finance in Advance initiatives, you can find me reading about market trends and playing soccer with friends.",
-      image: "/vedant.png",
     }
-  ];
+   ];
 
   return (
     <div className="min-h-screen">
